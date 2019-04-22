@@ -1,0 +1,23 @@
+{
+  "name": "web-design-1819",
+  "version": "1.0.0",
+  "description": "### Flow",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ngrok": "^3.1.1"
+  },
+  "scripts": {
+    "ngrok": "node_modules/.bin/ngrok http 5500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denniswegereef/web-design-1819.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denniswegereef/web-design-1819/issues"
+  },
+  "homepage": "https://github.com/Denniswegereef/web-design-1819#readme"
+}

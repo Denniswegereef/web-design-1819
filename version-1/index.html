@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Boek een vlucht</title>
+  </head>
+  <body>
+    <section>
+      <a href="#content">Ga naar content</a>
+      <a href="#navigation">Ga naar navigatie</a>
+    </section>
+
+    <nav id="navigation">
+      <ul>
+        <li><a href="link-one">Link 1</a></li>
+        <li><a href="link-two">Link 2</a></li>
+        <li><a href="link-three">Link 2</a></li>
+        <li><a href="link-four">Link 3</a></li>
+      </ul>
+    </nav>
+
+    <main id="content">
+      <h1>Boek een vliegreis</h1>
+
+      <a href="where-to">Begin met boeken</a>
+    </main>
+
+    <section id="where-to">
+      <h2>Waar wil je heen?</h2>
+
+      <!--
+          !! Achterliggende informatie over het land
+          !! Het weer
+      -->
+
+      <select
+        id="select-information-city"
+        required
+        aria-label="In welk continent ligt het land?"
+      >
+        <option value="europa">Europa</option>
+        <option value="amerika">Amerika</option>
+        <option value="london">London</option>
+      </select>
+
+      <div id="extra-information-city"></div>
+
+      <h2>Vanaf waar vlieg je?</h2>
+      <select required>
+        <option value="amsterdam">Amsterdam</option>
+        <option value="eindhoven">Eindhoven</option>
+      </select>
+
+      <p>Met hoeveel passagiers</p>
+
+      <h3>De vlucht is x tijd</h3>
+      <p>Vanaf hoelaat wil je vliegen?</p>
+      <input type="time" required />
+
+      <a href="possible-optionss">Ga verder</a>
+    </section>
+
+    <section id="possible-options">
+      <h2>Beschikbare vluchten</h2>
+
+      <p>Selecteer een vlucht</p>
+      <article>
+        <h3>Vlucht 1</h3>
+        <p>Kost 100 euro</p>
+      </article>
+      <article>
+        <h3>Vlucht 2</h3>
+        <p>Kost 100 euro</p>
+      </article>
+      <article>
+        <h3>Vlucht 3</h3>
+        <p>Kost 100 euro</p>
+      </article>
+
+      <a href="find-seats">Ga verder naar een stoel uitkiezen</a>
+    </section>
+
+    <section id="find-seats">
+      <h2>Zoek een stoel</h2>
+
+      <span>Hier komen stoelen</span>
+
+      <a href=""></a>
+    </section>
+
+    <section id="enter-contact-information">
+      <form action="">
+        <label for="name"></label>
+        <input id="name" type="text" />
+
+        <label for="surname"></label>
+        <input id="surname" type="text" />
+
+        <button type="submit">Boek</button>
+      </form>
+    </section>
+  </body>
+
+  <script src="js/main.js"></script>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Boek een reis</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <h1>Boek een reis</h1>
+
+    <p>
+      We proberen zo goed mogelijke suggesties te geven, natuurlijk is er
+      gezorgd dat de hond mee mag in het vliegtuig en is meegerekend.
+    </p>
+
+    <p id="start">Wanneer wilt u gaan?</p>
+
+    <select name="" id="year">
+      <option value="2019">Dit jaar</option>
+      <option value="2020">Volgend jaar</option>
+    </select>
+
+    <p>In welke maand zou je willen gaan?</p>
+
+    <select id="month">
+      <option>Januari</option>
+      <option>Februari</option>
+      <option>Maart</option>
+      <option>April</option>
+      <option>Mei</option>
+      <option>Juni</option>
+      <option>Juli</option>
+      <option>Augustus</option>
+      <option>September</option>
+      <option>Oktober</option>
+      <option>November</option>
+      <option>December"</option>
+    </select>
+
+    <select id="day">
+      <option aria-label="Maandag, 1">1</option>
+      <option aria-label="Dinsdag, 2">2</option>
+      <option aria-label="Woensdag, 3">3</option>
+      <option aria-label="Donderdag, 4">4</option>
+      <option aria-label="Vrijdag, 5">5</option>
+      <option aria-label="Zaterdag, 6">6</option>
+      <option aria-label="Zondag, 7">7</option>
+    </select>
+
+    <p>
+      Momenteel geselecteerd: Maandag 5 oktober 2019.
+    </p>
+
+    <p>Wilt u deze datum wijzigen?</p>
+    <a href="./step-2.html">Nee, ga verder naar de datum voor de terugreis</a>
+
+    <a href="#change">Ja graag</a>
+
+    <section id="change">
+      <p>Wat wilt u aanpassen?</p>
+      <a href="#year">Het jaar 2019</a>
+      <a href="#month">de maand oktober</a>
+      <a href="#day">Maandag 5</a>
+      <a href="#start">Helemaal opnieuw beginnen?</a>
+    </section>
+  </body>
+</html>

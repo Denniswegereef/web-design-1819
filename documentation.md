@@ -51,9 +51,15 @@ Well there are some small valid points, I could defintly use for improving my da
 
 Things I wanna improve this week for my prototype
 
-- Sounds when a button is triggered
 - Currently selected text always possible with a hotkey possible?
 - In the labels alot of content so she can't skip it :@
 - Make it more personal
 - More steps over different pages
-- Sounds
+
+I tested with Larissa and these points came out of it:
+
+- She didn't want to change much at all, but it worked fine with showing content when needed
+- Dropdowns with date are still handy
+- She got through my app without using any help, so mission finished.
+
+I still could do a-lot more nonsense, but it was harder than I thought of adding in a kinda usefull way some nonsense.

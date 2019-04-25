@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ondek een reis</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.js"
+      integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="css/main.css" /> -->
+  </head>
+  <body>
+    <h1>Wanneer wil je terug vliegen?</h1>
+
+    <p>
+      Je bent op stap 2 van de 4, alles opties kunnen later nog aangepast worden
+    </p>
+
+    <label for="we">Weet je de exacte eindatum?</label>
+    <label for="yes">Ja ik weet de eind datum</label>
+    <input type="radio" name="check" value="ja" id="yes" />
+    <br />
+
+    <label for="show-days">Nee nog niet</label>
+    <input type="radio" name="check" value="nee" id="show-days" />
+    <br />
+
+    <section id="yes-i-know">
+      <label for="month">In welke maand wil terug vliegen?</label>
+      <select id="month">
+        <option>Januari</option>
+        <option>Februari</option>
+        <option>Maart</option>
+        <option>April</option>
+        <option>Mei</option>
+        <option>Juni</option>
+        <option>Juli</option>
+        <option>Augustus</option>
+        <option>September</option>
+        <option>Oktober</option>
+        <option>November</option>
+        <option>December"</option>
+      </select>
+
+      <br />
+
+      <label for="day">Op welke dag wil terug je terug vliegen?</label>
+      <select id="day">
+        <option aria-label="Maandag, 1">1</option>
+        <option aria-label="Dinsdag, 2">2</option>
+        <option aria-label="Woensdag, 3">3</option>
+        <option aria-label="Donderdag, 4">4</option>
+        <option aria-label="Vrijdag, 5">5</option>
+        <option aria-label="Zaterdag, 6">6</option>
+        <option aria-label="Zondag, 7">7</option>
+      </select>
+
+      <br />
+
+      <label for="check">Is dinsdag 5 maart 2019 de juiste datum?</label>
+      <input type="checkbox" id="check" checked />
+      <br />
+
+      <a href="#step-3">Ja ga verder</a>
+      <a href="#month">Nee ik wil het toch nog aanpassen</a>
+
+      <input type="checkbox" id="check" required />
+
+      <a href="./step-3.html" id="step-3">Ga verder naar een land uitzoeken</a>
+    </section>
+
+    <section id="no-i-dont-know">
+      <label for="countdays">Hoeveel dagen wil je weg?</label>
+      <input type="number" name="countdays" />
+
+      <a href="./step-3.html">Ga verder naar een land uitzoeken</a>
+    </section>
+
+    <script src="./js/step-2.js"></script>
+  </body>
+</html>

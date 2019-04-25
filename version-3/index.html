@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ondek een reis</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.js"
+      integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="css/main.css" /> -->
+  </head>
+  <body>
+    <nav></nav>
+    <main></main>
+
+    <h1>Boek een reis</h1>
+
+    <p>
+      Welkom bij een reis boeken, we hebben natuurlijk eerst een datum nodig
+      wanneer je weg wil.
+    </p>
+
+    <p>
+        Je bent op stap 1 van de 4, alles opties kunnen later nog aangepast worden
+      </p>
+
+    <section>
+      <label for="year"
+        >Wil je dit jaar op vakantie, of pas volgend jaar?</label
+      >
+      <select name="" id="year">
+        <option value="2019">Dit jaar</option>
+        <option value="2020">Volgend jaar</option>
+      </select>
+
+      <br />
+
+      <label for="month">In welke maand wil je vertrekken?</label>
+      <select id="month">
+        <option>Januari</option>
+        <option>Februari</option>
+        <option>Maart</option>
+        <option>April</option>
+        <option>Mei</option>
+        <option>Juni</option>
+        <option>Juli</option>
+        <option>Augustus</option>
+        <option>September</option>
+        <option>Oktober</option>
+        <option>November</option>
+        <option>December"</option>
+      </select>
+
+      <br />
+
+      <label for="day">Op welke dag wil je vliegen?</label>
+      <select id="day">
+        <option aria-label="Maandag, 1">1</option>
+        <option aria-label="Dinsdag, 2">2</option>
+        <option aria-label="Woensdag, 3">3</option>
+        <option aria-label="Donderdag, 4">4</option>
+        <option aria-label="Vrijdag, 5">5</option>
+        <option aria-label="Zaterdag, 6">6</option>
+        <option aria-label="Zondag, 7">7</option>
+      </select>
+
+      <br />
+
+      <label for="check">Is dinsdag 5 maart 2019 de juiste datum?</label>
+
+      <br />
+      <label for="yes">Ja dit klopt</label>
+      <input type="radio" name="check" value="ja" id="yes" /><br />
+
+      <label for="show-revision">Nee ik wil de datum toch nog aanpassen</label>
+      <input type="radio" name="check" value="nee" id="show-revision" />
+      <br />
+
+      <section id="change">
+        <label for="change">Welk veld moet er aangepast worden?</label>
+        <a href="#year">Het jaar 2019</a>
+        <a href="#month">de maand oktober</a>
+        <a href="#day">Maandag 5</a>
+        <a href="javascript:window.location.href=window.location.href"
+          >Helemaal opnieuw beginnen?</a
+        >
+      </section>
+
+      <a href="./step-2.html">Ga verder naar de eind datum</button>
+    </section>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

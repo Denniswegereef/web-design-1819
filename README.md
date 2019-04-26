@@ -2,7 +2,11 @@
 
 [Version 1 link](https://denniswegereef.github.io/web-design-1819/version-1/)
 
+### Introduction
+
 The first week was mainly got to know what I'm suppose to do. Creating something for a blind person without is a different way of thinking. My first idea without meeting Larissa yet was to create something like a skip-to-content and skip-to-navigation buttons. Pretty simple stuff but quite helpful, a lot of websites have such small tricks build but you can't see it.
+
+### Notes first session
 
 After that I was actually quite blank what I have to do than, so it was great to meet Larissa.
 I notes for the session but those points were the most interesting.
@@ -36,6 +40,12 @@ Honestly I had some struggles of creating something, I coudn't really get into t
 
 Well I started building a prototype to first solve something small like a date picker, because if you wanna fly you have to know when you are going and coming back. Most of the date pickers are big tables with alot of numbers.
 
+### User scenarios
+
+> As a user I want to pick a date to blook a flight with a screenreader but without the use of a regular date-picker
+
+> As a user I want to see the weather as accurate as possible without having acces to a weather map where the clouds show
+
 Things I try to improve was the fact that I set everything in a drop down from year, month and day to make it more easy searchable. It was not really a out of the box idea but it is nice just seeing how she goes over your page because what I do with the screenreader is just read every possible line there is on the page.
 
 But when she was testing she just completely missed my introduction text, well than she just goes straight to the dropdown. So that's kinda hard, I tried to keep as limited amount of content per page. Also try to make it easy to undo a action and go back. Without having to look inside the table of days all again.
@@ -58,14 +68,25 @@ Well there are some small valid points, I could defintly use for improving my da
 Things I wanna improve this week for my prototype
 
 - Currently selected text always possible with a hotkey possible?
-- In the labels alot of content so she can't skip it :@
+- In the labels alot of content so she can't skip it
 - Make it more personal
 - More steps over different pages
 
+Sadly I coudn't be there to test it
 I tested with Larissa and these points came out of it:
 
 - She didn't want to change much at all, but it worked fine with showing content when needed
 - Dropdowns with date are still handy
 - She got through my app without using any help, so mission finished.
 
-I still could do a-lot more nonsense, but it was harder than I thought of adding in a kinda usefull way some nonsense.
+I still could do a-lot more nonsense, but it was harder than I thought of adding in a kinda usefull way some nonsense. Because with sound just on a basic regular task it more distracts the user than helping her. The screenreader just keeps speaking and speaking.
+
+# Conclusion
+
+In terms of what I've created it doesn't look as much, I know. But the way to get there was way harder than I thought. This is by far the hardest part for now in the minor. Everything I did was basicly expanding what I already knew. This was _totally_ new for me, the way of thinking not using any styling.
+
+Testing was also a big part of the job, oh man I hated that screenreader. The monotone voice of the men who speaks is just mind killing. I can totally understand why you wanna make the web a bit more fun for people who just can't regular view a web page.
+
+I made 3 prototypes with minor improvements based on the tests what was going wrong. It's fun to see that in the end it did work out how I wanted it. But I do realize that just thinking it _should_ work, most of the time it just _doesn't_ the way you want it for the user.
+
+The thing I learned the most is just that testing is key, just for a couple of minutes you get the most clear vision of how your app is doing for people with a disability. Instead of reading all kinds of blogs etc.

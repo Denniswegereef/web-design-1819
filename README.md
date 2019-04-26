@@ -42,9 +42,16 @@ Well I started building a prototype to first solve something small like a date p
 
 ### User scenarios
 
-> As a user I want to pick a date to blook a flight with a screenreader but without the use of a regular date-picker
+> As Larissa I want to pick a date to blook a flight with a screenreader without having to just a regular pop-up date picker
+
+> Larissa never picks the travels herself, because it is just a tedious, it could be more fun
 
 > As a user I want to see the weather as accurate as possible without having acces to a weather map where the clouds show
+
+#### Notable points
+
+- Not much content per page
+- Load in dynamic content based on
 
 Things I try to improve was the fact that I set everything in a drop down from year, month and day to make it more easy searchable. It was not really a out of the box idea but it is nice just seeing how she goes over your page because what I do with the screenreader is just read every possible line there is on the page.
 
